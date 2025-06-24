@@ -189,9 +189,7 @@ public class SecurityStack {
 
 <div align="center">
 
-<!-- QUOTE:START -->
-**💭 Dev Wisdom**: "The most important property of a program is whether it accomplishes the intention of its user."
-<!-- QUOTE:END -->
+<!-- QUOTE:START --><!-- QUOTE:END -->
 
 </div>
 
@@ -265,9 +263,7 @@ public class SecurityStack {
 
 ![Profile Views](https://komarev.com/ghpvc/?username=spktrs&color=FF6B35&style=for-the-badge&label=Profile+Views)
 
-<!-- MOTIVATION:START -->
-**🎯 Today's Focus**: Implementing efficient caching strategies
-<!-- MOTIVATION:END -->
+<!-- MOTIVATION:START --><!-- MOTIVATION:END -->
 
 *Last updated: P25-06-23 15:16:39 UTC<!--END_SECTION:update_time-->*
 
@@ -276,5 +272,5 @@ public class SecurityStack {
 ---
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/spktrs/spktrs/output/github-contribution-grid-snake-dark.svg" alt="Snake Game" />
+<img src="dist/github-contribution-grid-snake-dark.svg" alt="Snake Game" />
 </div>

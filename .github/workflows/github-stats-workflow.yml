@@ -1,0 +1,48 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # Roda a cada 6 horas
+  workflow_dispatch: # Permite execução manual
+
+jobs:
+  update_stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # Nota: Esta action não gera arquivos diretamente no repositório.
+      # Ela gera SVGs que são embutidos no README via URL.
+      # O objetivo deste workflow é garantir que, se houver alguma lógica
+      # de atualização ou cache no lado do servidor da Vercel (onde as stats são hospedadas),
+      # forçamos uma "atualização" simbólica ou simplesmente confirmamos que o README
+      # está usando as URLs corretas.
+      #
+      # Para as stats que você já tem (github-readme-stats.vercel.app),
+      # a atualização é feita pela própria Vercel app.
+      # Este workflow serve mais como um placeholder se quisermos mudar para uma action
+      # que gere os SVGs e os commite no repo, ou para adicionar outras actions
+      # que atualizem seções específicas do README.
+
+      # Exemplo: Se quiséssemos usar uma action que GERA e COMMITA o SVG das stats
+      # - name: Update GitHub Stats
+      #   uses: your-chosen-action-for-stats@vX
+      #   with:
+      #     GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #     # Outras opções da action
+
+      - name: Commit and Push Changes (if any future action modifies files)
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Adicionar quaisquer arquivos que possam ser gerados por actions futuras
+          # git add path/to/generated/stats.svg
+          if ! git diff --staged --quiet; then
+            git commit -m "📊 Chore: Update GitHub stats section in README"
+            git push
+          else
+            echo "No direct file changes to commit for GitHub stats by this workflow."
+          fi

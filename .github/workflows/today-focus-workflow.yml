@@ -1,0 +1,57 @@
+name: Update Today's Focus
+
+on:
+  schedule:
+    - cron: "0 5 * * *" # Roda diariamente às 5h UTC (um pouco antes da cobrinha)
+  workflow_dispatch:
+
+jobs:
+  update_focus:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Necessário para commitar as alterações no README
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Update Today's Focus
+        # Esta é uma abordagem simples usando sed para substituir o conteúdo.
+        # Poderíamos usar uma action mais sofisticada se quiséssemos lógica complexa
+        # para determinar o foco (ex: pegar de uma API, um arquivo, etc.)
+        # Por enquanto, vamos definir uma lista de focos e pegar um aleatoriamente.
+        run: |
+          FOCUS_OPTIONS=(
+            "Implementing efficient caching strategies"
+            "Optimizing database query performance"
+            "Exploring new features in Rust's async ecosystem"
+            "Improving CI/CD pipeline efficiency"
+            "Deep diving into distributed consensus algorithms"
+            "Enhancing application security posture"
+            "Refactoring legacy code for better maintainability"
+            "Learning about a new WebAssembly use case"
+            "Contributing to a favorite open-source project"
+            "Automating infrastructure provisioning with Terraform"
+          )
+          SELECTED_FOCUS=${FOCUS_OPTIONS[$((RANDOM % ${#FOCUS_OPTIONS[@]}))]}
+          echo "Today's focus will be: $SELECTED_FOCUS"
+          # Substitui o conteúdo entre <!-- MOTIVATION:START --> e <!-- MOTIVATION:END -->
+          # Usando awk para manipulação de múltiplas linhas de forma mais robusta
+          awk -v focus="$SELECTED_FOCUS" '
+          BEGIN { printing=1 }
+          /<!-- MOTIVATION:START -->/ { print; print "**🎯 Today'\''s Focus**: " focus; printing=0; next }
+          /<!-- MOTIVATION:END -->/ { printing=1 }
+          printing { print }
+          ' README.md > README.md.tmp && mv README.md.tmp README.md
+        shell: bash
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if ! git diff --staged --quiet; then
+            git commit -m "🎯 Chore: Update today's focus"
+            git push
+          else
+            echo "No changes to commit for today's focus."
+          fi
