@@ -1,4 +1,4 @@
-# 🚀 aspekt | Full-Stack Systems Developer
+# aspekt
 
 <div align="center">
 
