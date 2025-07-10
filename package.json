@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "jest": "^30.0.4",
+    "node-fetch": "^2.7.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}

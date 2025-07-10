@@ -48,18 +48,18 @@ impl Developer {
 <tr>
 <td>
 
-![aspekt's GitHub Stats](https://github-readme-stats.vercel.app/api?username=spktrs&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B35&text_color=FFF&icon_color=FF6B35&hide=issues)
+![aspekt's GitHub Stats](https://github-readme-stats.vercel.app/api?username=aspekt&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B35&text_color=FFF&icon_color=FF6B35&hide=issues)
 
 </td>
 <td>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=spktrs&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B35&text_color=FFF&hide=html,css)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aspekt&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B35&text_color=FFF&hide=html,css)
 
 </td>
 </tr>
 </table>
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=spktrs&theme=radical&hide_border=true&background=0D1117&stroke=FF6B35&ring=FF6B35&fire=FFA500&currStreakLabel=FFF)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=aspekt&theme=radical&hide_border=true&background=0D1117&stroke=FF6B35&ring=FF6B35&fire=FFA500&currStreakLabel=FFF)
 
 </div>
 
@@ -185,6 +185,13 @@ public class SecurityStack {
 
 ---
 
+## 📰 **Latest Tech News (Brazil)**
+
+<!-- NEWS:START -->
+<!-- NEWS:END -->
+
+---
+
 ## 💭 **Daily Tech Inspiration**
 
 <div align="center">
@@ -251,7 +258,7 @@ public class SecurityStack {
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/seu_twitter)
 [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/seu_discord)
 [![Website](https://img.shields.io/badge/Website-FF6B35?style=for-the-badge&logo=firefox&logoColor=white)](https://seu-site.dev)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@spktrs.dev)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@aspekt.dev)
 
 </div>
 
@@ -261,7 +268,7 @@ public class SecurityStack {
 
 ### 💭 **"Code is like poetry. Clean, elegant, and purposeful."**
 
-![Profile Views](https://komarev.com/ghpvc/?username=spktrs&color=FF6B35&style=for-the-badge&label=Profile+Views)
+![Profile Views](https://komarev.com/ghpvc/?username=aspekt&color=FF6B35&style=for-the-badge&label=Profile+Views)
 
 <!-- MOTIVATION:START --><!-- MOTIVATION:END -->
 **🎯 Today's Focus**: Implementing efficient caching strategies
