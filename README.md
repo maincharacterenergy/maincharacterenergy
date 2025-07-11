@@ -188,6 +188,7 @@ public class SecurityStack {
 ## 📰 **Latest Tech News (Brazil)**
 
 <!-- NEWS:START -->
+No news available at the moment. 🙁
 <!-- NEWS:END -->
 
 ---
