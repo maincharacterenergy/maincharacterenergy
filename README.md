@@ -1,5 +1,3 @@
-# aspekt
-
 <div align="center">
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=FF6B35&center=true&vCenter=true&width=600&lines=Systems+%26+Backend+Developer;Rust+%7C+Java+%7C+Go+%7C+TypeScript;Distributed+Systems+Architect;Performance+%26+Security+Focused)
@@ -22,7 +20,7 @@ struct Developer {
 impl Developer {
     fn new() -> Self {
         Self {
-            name: "aspekt",
+            name: "six",
             role: "Senior Full-Stack Systems Developer",
             experience: 6,
             specialties: vec![
@@ -101,165 +99,13 @@ impl Developer {
 
 </div>
 
----
-
-## 🎯 **Current Focus Areas**
-
-<details>
-<summary><b>🔥 High-Performance Systems</b></summary>
-
-```rust
-struct PerformanceGoals {
-    latency_target: &'static str,
-    throughput_goal: &'static str,
-    memory_efficiency: &'static str,
-    concurrency_model: &'static str,
-}
-
-impl PerformanceGoals {
-    fn current() -> Self {
-        Self {
-            latency_target: "< 1ms P99",
-            throughput_goal: "100k+ RPS",
-            memory_efficiency: "Zero-copy operations",
-            concurrency_model: "Lock-free algorithms",
-        }
-    }
-}
-```
-
-**Active Projects**: Async runtime optimization, SIMD operations, custom allocators  
-**Progress**: 78% ████████████████░░░░
-
-</details>
-
-<details>
-<summary><b>🏗️ Distributed Systems Architecture</b></summary>
-
-```go
-type SystemDesign struct {
-    Patterns     []string
-    Consistency  string
-    Scaling      string
-    Observability string
-}
-
-func NewArchitecture() *SystemDesign {
-    return &SystemDesign{
-        Patterns:     []string{"CQRS", "Event Sourcing", "Saga Pattern"},
-        Consistency:  "Eventually Consistent",
-        Scaling:      "Horizontal + Auto-scaling",
-        Observability: "OpenTelemetry + Prometheus",
-    }
-}
-```
-
-**Current Work**: Event-driven microservices, distributed caching, consensus algorithms  
-**Progress**: 85% █████████████████░░░
-
-</details>
-
-<details>
-<summary><b>🔐 Security Engineering</b></summary>
-
-```java
-public class SecurityStack {
-    private final List<String> practices = Arrays.asList(
-        "Zero Trust Architecture",
-        "End-to-End Encryption",
-        "OAuth 2.1 + OIDC",
-        "Container Security Scanning",
-        "Infrastructure as Code Security"
-    );
-    
-    public String getCurrentFocus() {
-        return "Implementing security-by-design in microservices";
-    }
-}
-```
-
-**Expertise**: JWT security, TLS optimization, secret management, vulnerability assessment  
-**Progress**: 72% ██████████████░░░░░░
-
-</details>
-
----
-
-## 📰 **Latest Tech News (Brazil)**
-
-<!-- NEWS:START -->
-No news available at the moment. 🙁
-<!-- NEWS:END -->
-
----
-
-## 💭 **Daily Tech Inspiration**
-
-<div align="center">
-
-<!-- QUOTE:START --><!-- QUOTE:END -->
-
-</div>
-
----
-
-## 📊 **Performance Metrics**
-
-<!-- METRICS:START -->
-| Metric | Current | Target | Status |
-|--------|---------|---------|---------|
-| 🦀 Rust Compile Time | 1.3s | <2.0s | 🟢 |
-| ☕ JVM Startup | 1.1s | <1.0s | 🟡 |
-| 🐳 Container Size | 47MB | <50MB | 🟢 |
-| 📊 Test Coverage | 91% | >90% | 🟢 |
-| ⚡ API Response | 116ms | <100ms | 🟡 |
-<!-- METRICS:END -->
-
----
-
-## 🌟 **Open Source Contributions**
-
-<!-- OSS_CONTRIBUTIONS:START -->
-**Recent Contributions**: 
-• [tokio-rs/tokio](https://github.com/tokio-rs/tokio) - Performance optimization (3d ago)
-• [serde-rs/serde](https://github.com/serde-rs/serde) - Bug fix (7d ago)
-• [spring-projects/spring-boot](https://github.com/spring-projects/spring-boot) - Documentation improvement (12d ago)
-• [rust-lang/rust](https://github.com/rust-lang/rust) - Feature implementation (18d ago)
-<!-- OSS_CONTRIBUTIONS:END -->
-
-### 🛠️ **Tools & Libraries I Use**
-- **Async Runtime**: Tokio, async-std
-- **Web Frameworks**: Axum, Actix-web, Spring Boot
-- **Build Tools**: Cargo, Gradle, Webpack
-- **Monitoring**: Grafana, Jaeger, New Relic
-- **Testing**: Jest, pytest, JUnit 5
-
----
-
-## 📈 **Personal Development Stats**
-
-<!-- LEETCODE:START -->
-**LeetCode**: 347 solved • Contest Rating: 1823 • 92E/185M/70H
-<!-- LEETCODE:END -->
-
-<!-- CODEWARS:START -->
-**Codewars**: 2 kyu • 312 kata completed • 5,420 honor
-<!-- CODEWARS:END -->
-
-<!-- STACKOVERFLOW:START -->
-**Stack Overflow**: 4,250 rep • 78 answers • 23 questions
-<!-- STACKOVERFLOW:END -->
-
----
-
 ## 📫 **Connect & Collaborate**
 
 <div align="center">
 
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/seu_twitter)
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/seu_discord)
-[![Website](https://img.shields.io/badge/Website-FF6B35?style=for-the-badge&logo=firefox&logoColor=white)](https://seu-site.dev)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@aspekt.dev)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/loweffortwin)
+[![Website](https://img.shields.io/badge/Website-FF6B35?style=for-the-badge&logo=firefox&logoColor=white)](https://innafuckyour.mom)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:six@gonnafuckyour.mom)
 
 </div>
 
@@ -267,9 +113,4 @@ No news available at the moment. 🙁
 
 <div align="center">
 
-### 💭 **"Code is like poetry. Clean, elegant, and purposeful."**
-
 ![Profile Views](https://komarev.com/ghpvc/?username=aspekt&color=FF6B35&style=for-the-badge&label=Profile+Views)
-
-<!-- MOTIVATION:START --><!-- MOTIVATION:END -->
-**🎯 Today's Focus**: Learning about a new WebAssembly use case
