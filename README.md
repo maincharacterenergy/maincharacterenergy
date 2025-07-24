@@ -6,8 +6,6 @@
 
 ---
 
-## 🔥 **About Me**
-
 ```rust
 struct Developer {
     name: &'static str,
@@ -39,31 +37,27 @@ impl Developer {
 
 ---
 
-## 📊 **GitHub Analytics**
-
 <div align="center">
 <table>
 <tr>
 <td>
 
-![aspekt's GitHub Stats](https://github-readme-stats.vercel.app/api?username=aspekt&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B35&text_color=FFF&icon_color=FF6B35&hide=issues)
+![aspekt's GitHub Stats](https://github-readme-stats.vercel.app/api?username=six&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B35&text_color=FFF&icon_color=FF6B35&hide=issues)
 
 </td>
 <td>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aspekt&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B35&text_color=FFF&hide=html,css)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=six&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B35&text_color=FFF&hide=html,css)
 
 </td>
 </tr>
 </table>
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=aspekt&theme=radical&hide_border=true&background=0D1117&stroke=FF6B35&ring=FF6B35&fire=FFA500&currStreakLabel=FFF)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=six&theme=radical&hide_border=true&background=0D1117&stroke=FF6B35&ring=FF6B35&fire=FFA500&currStreakLabel=FFF)
 
 </div>
 
 ---
-
-## 🛠️ **Technology Arsenal**
 
 <div align="center">
 
@@ -99,8 +93,6 @@ impl Developer {
 
 </div>
 
-## 📫 **Connect & Collaborate**
-
 <div align="center">
 
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/loweffortwin)
@@ -114,9 +106,3 @@ impl Developer {
 <div align="center">
 
 ![Profile Views](https://komarev.com/ghpvc/?username=aspekt&color=FF6B35&style=for-the-badge&label=Profile+Views)
-
-## 📰 **Latest Tech News (Brazil)**
-
-<!-- NEWS:START -->
-No news available at the moment. 🙁
-<!-- NEWS:END -->
