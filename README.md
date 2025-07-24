@@ -42,7 +42,7 @@ impl Developer {
 <tr>
 <td>
 
-![aspekt's GitHub Stats](https://github-readme-stats.vercel.app/api?username=six&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B35&text_color=FFF&icon_color=FF6B35&hide=issues)
+![six's GitHub Stats](https://github-readme-stats.vercel.app/api?username=six&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6B35&text_color=FFF&icon_color=FF6B35&hide=issues)
 
 </td>
 <td>
