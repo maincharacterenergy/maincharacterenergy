@@ -114,3 +114,9 @@ impl Developer {
 <div align="center">
 
 ![Profile Views](https://komarev.com/ghpvc/?username=aspekt&color=FF6B35&style=for-the-badge&label=Profile+Views)
+
+## 📰 **Latest Tech News (Brazil)**
+
+<!-- NEWS:START -->
+No news available at the moment. 🙁
+<!-- NEWS:END -->
