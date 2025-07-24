@@ -19,7 +19,7 @@ impl Developer {
     fn new() -> Self {
         Self {
             name: "six",
-            role: "Senior Full-Stack Systems Developer",
+            role: "Full-Stack Systems Developer",
             experience: 6,
             specialties: vec![
                 "Distributed Systems", "Microservices Architecture",
